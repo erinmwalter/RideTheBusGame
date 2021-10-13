@@ -1,0 +1,14 @@
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\bin\Debug\netcoreapp3.1\DeckOfCards.exe
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\bin\Debug\netcoreapp3.1\DeckOfCards.deps.json
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\bin\Debug\netcoreapp3.1\DeckOfCards.runtimeconfig.json
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\bin\Debug\netcoreapp3.1\DeckOfCards.runtimeconfig.dev.json
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\bin\Debug\netcoreapp3.1\DeckOfCards.dll
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\bin\Debug\netcoreapp3.1\DeckOfCards.pdb
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.csproj.AssemblyReference.cache
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.AssemblyInfoInputs.cache
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.AssemblyInfo.cs
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.csproj.CoreCompileInputs.cache
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.dll
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.pdb
+C:\Users\ewalter\source\repos\DeckOfCards\DeckOfCards\obj\Debug\netcoreapp3.1\DeckOfCards.genruntimeconfig.cache
