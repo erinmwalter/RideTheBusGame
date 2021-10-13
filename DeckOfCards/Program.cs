@@ -11,6 +11,8 @@ namespace DeckOfCards
             CardDeck deckBuilder = new CardDeck();
             List<Card> newDeck = deckBuilder.InitializeDeck();
             List<List<Card>> allHands = new List<List<Card>>();
+            Dictionary<string, List<Card>> allPlayerHands = new Dictionary<string, List<Card>>();
+            string playerName;
             
             Card drawnCard = new Card();
             Card firstCard = new Card();
@@ -22,6 +24,7 @@ namespace DeckOfCards
             {
                 List<Card> playerHand = new List<Card>();
 
+                playerName = GetInput("Enter Player's Name: ");
 
                 firstCard = DrawCard(newDeck, newDeck.Count);
                 
@@ -44,17 +47,17 @@ namespace DeckOfCards
                 newDeck.Remove(drawnCard);
                 PlayGuessTheSuit(drawnCard);
 
-                
 
-                allHands.Add(playerHand);
+
+                allPlayerHands.Add(playerName, playerHand);
                 runAgain = Continue("\nAnother Player's Turn? (y/n): ");
             }
 
-            Console.WriteLine("player's hand:");
-            foreach (List<Card> hand in allHands)
+            
+            foreach (KeyValuePair<string, List<Card>> hand in allPlayerHands)
             {
-                Console.WriteLine("\nPlayer Hand: ");
-                foreach(Card card in hand)
+                Console.WriteLine($"\n{hand.Key}'s hand: ");
+                foreach(Card card in hand.Value)
                 {
                     Console.WriteLine(card.GetCardName());
                 }
